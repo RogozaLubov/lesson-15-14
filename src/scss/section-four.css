@@ -1,0 +1,53 @@
+.section-four {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-grow: 1;
+  margin-bottom: 266px;
+}
+
+.title_foure {
+  width: 254px;
+  font-size: 36px;
+  font-weight: 700px;
+  line-height: 48px;
+  color: #000000;
+  margin: 0 237px 63px 280px;
+  display: inline-flex;
+  align-items: flex-start;
+}
+
+.section-four p {
+  width: 420px;
+  font-size: 18px;
+  font-weight: 700px;
+  line-height: 1.4;
+  margin: 0 71px 40px 280px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.img_foure {
+  width: 650px;
+  
+}
+
+.button_foure {
+  margin-bottom: 277px;
+  border: 1.4px solid #458FF6;
+  border-radius: 55px;
+  color: #458FF6;
+  background: #ffffff;
+  padding: 35px 51px;
+  font-size: 18px;
+  line-height: 1.2;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 700;
+  height: 13px;
+  margin: 0 478px 200px 323px;
+}
+
+/*# sourceMappingURL=section-four.css.map */

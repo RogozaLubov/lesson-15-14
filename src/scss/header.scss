@@ -1,0 +1,52 @@
+  
+/*start header*/
+body{
+    font-family: 'Mulish', Arial, 'Times New Roman', Times, serif;
+    font-style: normal;
+    font-weight: 300;
+    color: #7D7987;
+}
+a{
+    text-decoration: none;
+}
+.logo{
+    float: left;
+    margin: 62px 0 191px 244px; 
+    flex-direction: column;
+      
+}
+.imglogo{
+    float: left;
+    width: 41px;
+    margin-bottom: 186px;
+}
+.logotip{
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 1.25;
+    color: #233348;
+    vertical-align: middle; 
+}
+/* start navigetion*/
+.nav {
+    margin: 1px 158px 84px 0;
+    float: right;
+    margin-bottom: 84px;
+    font-weight: 400;
+
+}
+.nav li{
+    display: inline-block;
+    opacity: 0.5;
+    margin-top: 70px;
+    margin-right: 40px;
+    font-size: 18px;
+    line-height: 23px;
+    color: #1F1534
+}
+.nav li:last-child{
+    margin-right: 0;
+}
+.nav li :hover{
+    opacity: 1;
+}

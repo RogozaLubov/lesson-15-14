@@ -1,0 +1,68 @@
+  
+/*start header*/
+body,
+html{
+  font-family: 'Mulish', Arial, 'Times New Roman', Times, serif;
+  font-style: normal;
+  font-weight: 300;
+  color: #7D7987;
+  font-size: 10px;
+
+}
+a{
+  text-decoration: none;
+}
+
+.container {
+  max-width: 1487px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  
+}
+.logo{
+ display: flex;
+  align-items:center;
+  gap: 12px;
+}
+.imglogo{
+
+  width: 41px;
+  
+}
+.logotip{
+  font-weight: 700;
+  font-size: 2.4rem;
+  line-height: 1.25;
+  color: #233348;
+  vertical-align: middle; 
+}
+/* start navigetion*/
+.nav {
+  margin-left: 512px;
+  display: flex;
+  align-items:center;
+  flex-direction: column;
+  font-size: 1.8rem;
+  margin-bottom: 84px;
+  font-weight: 400;
+
+ 
+}
+.nav li{
+  display: inline-block;
+  opacity: 0.5;
+  margin-top: 70px;
+  margin-right: 40px;
+  font-size: 18px;
+  line-height: 23px;
+  color: #1F1534
+}
+.nav li:last-child{
+  margin-right: 0;
+}
+.nav li :hover{
+  opacity: 1;
+}
+
+/*# sourceMappingURL=header.css.map */

@@ -1,0 +1,51 @@
+@font-face {
+    font-family: "Mulish";
+    font-style: normal;
+    font-weight: 700;
+    font-display: swap;
+    src: url(../fonts/Mulish-Bold.woff2) format("woff2");
+  }
+  @mixin font-700 {
+    font-weight: 700;
+    color: black;
+  }
+  @mixin font-700-h2 {
+    font-weight: 700;
+    color: black;
+    font-size: 3.6em;
+    line-height: 1.56;
+  }
+  @font-face {
+    font-family: "Mulish";
+    font-style: normal;
+    font-weight: 600;
+    font-display: swap;
+    src: url(../fonts/Mulish-SemiBold.woff2) format("woff2");
+  }
+  @font-face {
+    font-family: "Mulish";
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url(../fonts/Mulish-Regular.woff2) format("woff2");
+  }
+  @font-face {
+    font-family: "Mulish";
+    font-style: normal;
+    font-weight: 300;
+    font-display: swap;
+    src: url(../fonts/Mulish-Light.woff2) format("woff2");
+  }
+  @mixin font300header {
+    font-weight: 300;
+    color: #7d7987;
+  }
+  
+  @mixin font300content {
+    font-weight: 300;
+    color: #7d7987;
+    font-size: 1.8em;
+    line-height: 1.67;
+  
+  }
+  
